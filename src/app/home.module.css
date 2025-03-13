@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #CEF6D8;
+}
+
+.content {
+  text-align: center;
+  max-width: 36rem;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #2c7a4c;
+  letter-spacing: -0.05em;
+  margin: 0 0 0.5rem 0;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.slogan {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #2c7a4c;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+  letter-spacing: 0.05em;
+}
+
+/* .subtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #4b5563;
+  margin-bottom: 2rem;
+} */
+
+.buttonContainer {
+  margin-top: 1.5rem;
+}
+
+.loginButton {
+  display: inline-block;
+  background-color: #2c7a4c;
+  color: white;
+  font-weight: 500;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.loginButton:hover {
+  background-color: #1a5c36;
+} 

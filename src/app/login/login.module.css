@@ -1,0 +1,129 @@
+.loginContainer {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #CEF6D8;
+}
+
+.logoContainer {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.logoLink {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.logo {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #2c7a4c;
+  letter-spacing: -0.05em;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.slogan {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #2c7a4c;
+  margin-top: 0.25rem;
+  font-style: italic;
+  letter-spacing: 0.05em;
+}
+
+.loginCard {
+  width: 100%;
+  max-width: 28rem;
+  border-radius: 0.5rem;
+  border: 1px solid #a7f3c1;
+  background-color: white;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.title {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2c7a4c;
+}
+
+.formGroup {
+  margin-bottom: 1.5rem;
+}
+
+.input {
+  width: 100%;
+  border-radius: 0.375rem;
+  border: 1px solid #a7f3c1;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  background-color: #f8fefa;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #2c7a4c;
+  box-shadow: 0 0 0 3px rgba(44, 122, 76, 0.1);
+}
+
+.forgotLinks {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.875rem;
+  margin-bottom: 1.5rem;
+}
+
+.link {
+  color: #2c7a4c;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #1a5c36;
+}
+
+.separator {
+  margin: 0 0.5rem;
+  color: #a7f3c1;
+}
+
+.loginButton {
+  width: 100%;
+  background-color: #2c7a4c;
+  color: white;
+  font-weight: 500;
+  padding: 0.75rem 1rem;
+  border-radius: 0.375rem;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: background-color 0.2s;
+}
+
+.loginButton:hover {
+  background-color: #1a5c36;
+}
+
+.signupButton {
+  width: 100%;
+  background-color: white;
+  color: #2c7a4c;
+  font-weight: 500;
+  padding: 0.75rem 1rem;
+  border-radius: 0.375rem;
+  border: 1px solid #a7f3c1;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.signupButton:hover {
+  background-color: #f8fefa;
+} 
